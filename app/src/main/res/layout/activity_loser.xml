@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loserscreen"
+    tools:context=".Loser">
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/WrongAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/StartAgainButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16000003"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/StartAgainButton"
+        android:layout_width="133dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/xhdpistart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/StartAgainText"
+        style="@style/StartTextTheme"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="@+id/StartAgainButton"
+        app:layout_constraintEnd_toEndOf="@+id/StartAgainButton"
+        app:layout_constraintStart_toStartOf="@+id/StartAgainButton"
+        app:layout_constraintTop_toTopOf="@+id/StartAgainButton"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/AgainGameExitButton"
+        android:layout_width="133dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/xhdpiexit"
+        app:layout_constraintBottom_toBottomOf="@+id/StartAgainButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/StartAgainButton"
+        app:layout_constraintTop_toTopOf="@+id/StartAgainButton"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ExitText"
+        style="@style/ExitTextTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="@+id/AgainGameExitButton"
+        app:layout_constraintEnd_toEndOf="@+id/AgainGameExitButton"
+        app:layout_constraintStart_toStartOf="@+id/AgainGameExitButton"
+        app:layout_constraintTop_toTopOf="@+id/AgainGameExitButton"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="15dp"
+        android:text="Note- If you click on Back Button then we consider you want to Exit."
+        android:textColor="#7D7D7D"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

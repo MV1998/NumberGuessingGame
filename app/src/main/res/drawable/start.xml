@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Style for "path_1" -->
+    <!-- Add this snippet to layer-list xml in drawable. -->
+    <item android:width="133dp" android:height="108dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffbcff8f" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -10,7 +10,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Timer;
 
 public class GameStarted extends AppCompatActivity {
 
@@ -36,6 +35,7 @@ public class GameStarted extends AppCompatActivity {
 
 
     private int mScore;
+    private int mPrivateProject;
 
 
 
